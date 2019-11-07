@@ -21,6 +21,8 @@
  require("components/home.php");
  require("components/featured.php");
  require("components/about-us.php");
+ require("components/about-nabil.php");
+ require("components/comodity.php");
 ?>
 
 
