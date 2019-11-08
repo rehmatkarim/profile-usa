@@ -21,8 +21,12 @@
  require("components/home.php");
  require("components/featured.php");
  require("components/about-us.php");
- require("components/about-nabil.php");
+//  require("components/about-nabil.php");
  require("components/comodity.php");
+ require("components/fee.php");
+//  require("components/reviews.php");
+require("components/resources.php");
+require("components/Appointments.php");
 ?>
 
 
@@ -35,6 +39,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </body>
 
 </html>

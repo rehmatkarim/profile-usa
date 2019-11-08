@@ -76,3 +76,77 @@ body {
     bottom: 60px;
     font-size: 20px;
 }
+.comodity{
+    background-color: black;
+    color: #ffffff;
+}
+.chl1{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/t.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.chl2{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/mm.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.chl3{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/tm.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.chl4{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/con.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.chl5{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/coach.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.chl6{
+    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+.fee{
+    background-color: black;
+    color: #ffffff;
+
+}
+.reviews{
+    background-color: black;
+    color: #ffffff;
+
+}
