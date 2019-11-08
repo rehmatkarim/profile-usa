@@ -1,4 +1,4 @@
-<div class="fee">
+<div class="fee mt-4">
     <div class="container-fluid">
         <div class="row justify-content-center mx-auto">
             <div class="col-md-12 text-center">

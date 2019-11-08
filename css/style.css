@@ -1,21 +1,33 @@
+/*
+Theme Name: profile
+Author: Mubi
+Description: Custom theme for half full
+Version: 0.0.1
+Tags: bootstrap
+*/
 @font-face {
-    font-family: palanquin;
-    src: url(fonts/PalanquinDark-Bold.ttf);
+    font-family: century;
+    src: url(./../fonts/CENTURY.ttf);
 }
-@font-face {
-    font-family: fogaz;
-    src: url(fonts/FugazOne-Regular.ttf);
-}
+
+
 body {
-    /* font-family: palanquin; */
+    font-family: century;
+    background: black;
 }
-.navba-ul > li {
+
+.btn-primary {
+    background: #0081C5 !important;
+}
+
+.navba-ul>li {
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
 }
-.home{
-    background-image: url('../images/1.jpg');
+
+.home {
+    background-image: url('../images/homeback2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,130 +35,203 @@ body {
     height: 100vh;
     width: 100%;
 }
-.home-heading{
-    font-family: palanquin;
+
+.card-image {
+    background-size: cover;
+}
+
+.home-heading {
+    font-family: century;
     font-stretch: ultra-expanded;
-    font-weight: 900;
+    font-weight: 500;
+    font-size: 80px;
     color: #ffffff !important;
 }
-.home-para{
-    
+
+.home-para {
+    font-size: 20px;
     color: #ffffff;
 }
-.logo{
-    height: 13vh;
+
+.logo {
+    height: 20vh;
     width: auto;
 }
+
 .logo-company {
     position: absolute;
     top: 50px;
 }
-.home-button{
+
+.home-button {
     font-size: 20px;
     font-weight: bolder;
 }
-.featured{
+
+.featured {
     background-color: black;
     color: #ffffff;
 }
-.f-logo{
-    height: 8vh;
-    width: auto;
 
+.f-logo {
+    height: 80px;
+    /* width: 100px; */
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: 0.2;
+    transition: filter 1000ms ease-in;
+    -webkit-transition: -webkit-filter 500ms ease-in;
 }
-.f-logo-ul li{
+
+.f-logo:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    opacity: 1;
+}
+
+.f-logo-ul li {
     display: inline;
     list-style-type: none;
 }
-.about{
+
+.about {
     background-color: black;
     color: #ffffff;
 }
-.about-para{
-    font-size:25px;
+
+.about-para {
+    font-size: 18px;
 }
-.about-nabil{
+
+.about-nabil {
     background-color: black;
     color: #ffffff;
-    height: 60vh;
+
 
 }
-.nabil-buton{
+
+.comodity {
+    background-color: black;
+    color: #ffffff;
+}
+
+.fee {
+    background-color: black;
+    color: #ffffff;
+
+}
+
+.reviews {
+    background-color: black;
+    color: #ffffff;
+
+}
+
+.container1 {
+    position: relative;
+    width: 60%;
+    height: 0;
+    padding-bottom: 36.25%;
+}
+
+.ytvideo {
     position: absolute;
-    bottom: 60px;
-    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
 }
-.comodity{
-    background-color: black;
-    color: #ffffff;
+
+.nabil-button {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    /* margin-bottom: 12%; */
 }
-.chl1{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/t.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
+
+.card-image {
+    min-height: 250px !important;
     width: auto;
-    color: black;
 }
-.chl2{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/mm.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: auto;
-    color: black;
+.service-overlay:hover {
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 1000ms ease-in;
+    color: #0081C5 !important;
+    /* -webkit-transition: -webkit-filter 500ms ease-in; */
 }
-.chl3{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/tm.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: auto;
-    color: black;
+.carousel-item {
+    transition: none !important;
+    transition-property: none !important;
+    transition-duration: none;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: none;
 }
-.chl4{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/con.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: auto;
-    color: black;
-}
-.chl5{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/coach.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: auto;
-    color: black;
-}
-.chl6{
-    background-image:linear-gradient(rgba(22,22,22,0), rgba(22,22,22,0.5)),url('../images/1.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: auto;
-    color: black;
-}
-.fee{
-    background-color: black;
-    color: #ffffff;
+.icon {
+    width: 150px;
+    height: auto;
 
 }
-.reviews{
-    background-color: black;
-    color: #ffffff;
+.socialbtns > ul > li > a,.socialbtns > ul > li > a:hover {
+    text-decoration: none;
+}
 
+.socialbtns, .socialbtns ul, .socialbtns li{
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    width: 40px !important;
+    height: 28px !important;
+    color: #FFF !important;
+    background-color: #000 !important;
+    padding-top: 12px !important;
+    border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    transition: all ease 0.5s !important;
+    -moz-transition: all ease 0.5s !important;
+    -webkit-transition: all ease 0.5s !important;
+    -o-transition: all ease 0.5s !important;
+}
+
+.socialbtns .fa:hover {
+    transform: scale(1.2,1.2) !important;
+    -moz-transform: scale(1.2,1.2) !important;
+    -webkit-transform: scale(1.2,1.2) !important;
+    -o-transform: scale(1.2,1.2) !important;
+    transition: all ease 0.5s !important ;
+    -moz-transition: all ease 0.5s !important;
+    -webkit-transition: all ease 0.5s !important;
+    -o-transition: all ease 0.5s !important;
+}
+.footer-links >  a {
+    color: #0081C5 !important;
+
+}
+.page-footer {
+    background: black !important;
+}
+.play-button {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 6%;
+    top: 40%;
+    margin-left: -30px; /*half of the width */
+    margin-top: -40px; /*half of the height */
+}
+.play-button > img {
+    width: 100px !important;
+    height: 100px !important;
+   
+}
+.youtube-modal {
+    height: 70vh;
 }

@@ -6,20 +6,20 @@
             </div>
         </div>
         <div class="row mx-auto justify-content-center mt-4">
-            <div class="col-md-10 text-center">
+            <div class="col-md-12 text-center">
                 <ul class="f-logo-ul ">
-                    <li><img src="images/S.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/sc.png'" onmouseout="this.src='images/S.png'"></li>
-                    <li><img src="images/g.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/gc.png'" onmouseout="this.src='images/g.png'"></li>
-                    <li><img src="images/g.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/gc.png'" onmouseout="this.src='images/g.png'"></li>
-                    <li><img src="images/g.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/gc.png'" onmouseout="this.src='images/g.png'"></li>
-                    <li><img src="images/m.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/m.png'" onmouseout="this.src='images/m.png'"></li>
-                    <li><img src="images/s.png" class="img-responsive f-logo p3 m-3" alt=""
-                            onmouseover="this.src='images/sic.png'" onmouseout="this.src='images/s.png'"></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/sc.png" class="img-responsive f-logo p3 m-3" alt=""
+                            ></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/spo.png" class="img-responsive f-logo p3 m-3" alt=""
+                            ></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/oc.png" class="img-responsive f-logo p3 m-3" alt=""
+                            ></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/gc.png" class="img-responsive f-logo p3 m-3" alt=""
+                            ></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/m.png" class="img-responsive f-logo p3 m-3" alt=""
+                             ></li>
+                    <li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/sic.png" class="img-responsive f-logo p3 m-3" alt=""
+                            ></li>
                 </ul>
 
 
